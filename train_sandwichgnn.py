@@ -37,7 +37,7 @@ parser.add_argument('--d_edge', type=int, default=4, help='')
 parser.add_argument('--d_model', type=int, default=8, help='')
 parser.add_argument('--d_ff', type=int, default=8, help='')
 parser.add_argument('--x_em', type=int, default=8, help='x embedding')
-parser.add_argument('--seq_len', type=int, default=96, help='step')
+parser.add_argument('--seq_len', type=int, default=72, help='step')
 parser.add_argument('--pred_len', type=int, default=12, help='step')
 parser.add_argument('--lr', type=float, default=0.001, help='lr')
 parser.add_argument('--wd', type=float, default=0.001, help='weight decay')
@@ -47,7 +47,6 @@ parser.add_argument('--adj_data', type=str,
                     default='/home/hjl/deep_learning_workspace/SandwichGNN/data/adj_mx.pkl', help='adj file')
 args = parser.parse_args()
 print(args)
-
 
 predefined_A = load_adj(args.adj_data)
 predefined_A = torch.tensor(predefined_A)-torch.eye(args.n_nodes)
