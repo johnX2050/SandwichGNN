@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="hjl@10.214.163.166:2222 password (5)" remoteFilesAllowedToDisappearOnAutoupload="false" confirmBeforeUploading="false">
+    <option name="confirmBeforeUploading" value="false" />
+    <serverData>
+      <paths name="616B">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/hjl/deep_learning_workspace/GAGNN" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="SandwichGNN">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/hjl/deep_learning_workspace/SandwichGNN" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="hjl@10.214.163.166:2222 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/hjl/deep_learning_workspace/SandwichGNN" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="hjl@10.214.163.166:2222 password (3)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/hjl/deep_learning_workspace/TimesNet_cn_aqi_fksting" local="$PROJECT_DIR$/../TimesNet_cn_aqi_fksting" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="hjl@10.214.163.166:2222 password (5)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/hjl/deep_learning_workspace/SandwichGNN" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
